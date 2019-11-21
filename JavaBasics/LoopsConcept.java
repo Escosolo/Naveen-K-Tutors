@@ -16,7 +16,8 @@ public class LoopsConcept {
 		//2. for loop:
 		//j++ means j+1
 		//print 1 to 10
-		for(int j=1;j<=10;j++) { //Initialization, Conditional, Incremental
+		int num = 10;
+		for(int j=1;j<=num/2;j++) { //Initialization, Conditional, Incremental
 			System.out.println(j);
 		}
 		
